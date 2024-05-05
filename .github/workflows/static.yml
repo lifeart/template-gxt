@@ -30,11 +30,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Set up Node
-        uses: actions/setup-node@v4
+      - uses: wyvox/action-setup-pnpm@v3
         with:
-          node-version: 20
-          cache: 'pnpm'
+          node-version: "20"
       - name: Install dependencies
         run: pnpm ci
       - name: Build
