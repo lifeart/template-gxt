@@ -7,6 +7,7 @@ import { renderComponent, type ComponentReturnType } from "@lifeart/gxt";
 import App from "./App.gts";
 
 if (import.meta.env.DEV) {
+  // @ts-ignore wrong dts
   await import('@lifeart/gxt/ember-inspector');
 }
 
