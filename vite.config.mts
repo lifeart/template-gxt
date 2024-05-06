@@ -1,13 +1,25 @@
 import { defineConfig } from "vite";
-import { compiler } from "@lifeart/gxt/compiler";
+import { compiler, stripGXTDebug } from "@lifeart/gxt/compiler";
+import babel from "vite-plugin-babel";
 
 export default defineConfig(({ mode }) => ({
-  plugins: [compiler(mode)],
-  base: '',
+  plugins: [
+    mode === "production"
+      ? (babel({
+          babelConfig: {
+            babelrc: false,
+            configFile: false,
+            plugins: [stripGXTDebug],
+          },
+        }) as any)
+      : null,
+    compiler(mode),
+  ],
+  base: "",
   rollupOptions: {
     input: {
       main: "index.html",
       tests: "tests.html",
-    }
-  }
+    },
+  },
 }));
