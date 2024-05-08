@@ -1,6 +1,6 @@
 import { Component, tracked } from '@lifeart/gxt';
-import { Input } from './components/Input';
-import { autofocus } from './modifiers/autofocus';
+import { Input } from '@/components/Input';
+import { autofocus } from '@/modifiers/autofocus';
 
 export default class App extends Component {
   @tracked

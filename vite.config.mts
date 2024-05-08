@@ -22,4 +22,9 @@ export default defineConfig(({ mode }) => ({
       tests: "tests.html",
     },
   },
+  resolve: {
+    alias: [
+      { find: /^@\/(.+)/, replacement: "/src/$1" },
+    ],
+  }
 }));
