@@ -15,7 +15,7 @@ export default class App extends Component {
       <p>
         <Input 
           @value={{this.name}}
-          @onInput={{this.updateName}}  
+          @onInput={{this.updateName}}
           {{autofocus}} />
       </p>
     </section>
