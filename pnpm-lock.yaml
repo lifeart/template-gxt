@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@lifeart/gxt':
-    specifier: 0.0.47
-    version: 0.0.47
+    specifier: 0.0.48
+    version: 0.0.48
   decorator-transforms:
     specifier: ^2.0.0
     version: 2.0.0(@babel/core@7.24.5)
@@ -23,8 +23,8 @@ devDependencies:
     specifier: ^10.4.19
     version: 10.4.19(postcss@8.4.38)
   glint-environment-gxt:
-    specifier: ^0.0.4
-    version: 0.0.4(@glint/core@1.4.0)(@glint/environment-ember-loose@1.4.0)(@glint/template@1.4.0)
+    specifier: ^0.0.5
+    version: 0.0.5(@glint/core@1.4.0)(@glint/environment-ember-loose@1.4.0)(@glint/template@1.4.0)
   postcss:
     specifier: ^8.4.38
     version: 8.4.38
@@ -1751,8 +1751,8 @@ packages:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  /@lifeart/gxt@0.0.47:
-    resolution: {integrity: sha512-VthWBZSNqp4lsiLVf9yGSTLoEK7U3wcAb11lSKxRYJ1tqp2g6DRPC4Ti60Ip5H5RUcZQFgnWwv5KAkleQFJRLA==}
+  /@lifeart/gxt@0.0.48:
+    resolution: {integrity: sha512-WoL0kwmCZE/FE+oJ2YNenEVrNAB6fdkhjKTAEja97VFAiE/IpFE1BzAPIKEE2in4Qdc1VcQ1uZm3pFttCA8ieg==}
     dependencies:
       '@babel/core': 7.24.5
       '@babel/preset-typescript': 7.24.1(@babel/core@7.24.5)
@@ -2973,8 +2973,8 @@ packages:
       pump: 3.0.0
     dev: true
 
-  /glint-environment-gxt@0.0.4(@glint/core@1.4.0)(@glint/environment-ember-loose@1.4.0)(@glint/template@1.4.0):
-    resolution: {integrity: sha512-OrKzWKYXSR1ArIm8aeJP2sd3a5hedrbgDkXgWhwQ8/pdc2n+s/7unECrkVBxYltdGdwl/6cWAQnyhci1t4v44Q==}
+  /glint-environment-gxt@0.0.5(@glint/core@1.4.0)(@glint/environment-ember-loose@1.4.0)(@glint/template@1.4.0):
+    resolution: {integrity: sha512-0SLxU6HXAic5uMkg3Ajve1K7KU0GLMUkpu1XcySya3mRMkqSSOkhirs4RQByGEVbvLaZWAG147iZowneEiwsrA==}
     peerDependencies:
       '@glint/core': ^1.3.0
       '@glint/environment-ember-loose': ^1.3.0
@@ -3125,6 +3125,7 @@ packages:
 
   /inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
     dependencies:
       once: 1.4.0
       wrappy: 1.0.2
