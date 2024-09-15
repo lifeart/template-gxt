@@ -10,22 +10,22 @@
   },
   "devDependencies": {
     "@glint/core": "^1.4.0",
-    "@types/qunit": "^2.19.10",
-    "autoprefixer": "^10.4.19",
+    "@types/qunit": "2.19.10",
+    "autoprefixer": "10.4.20",
     "glint-environment-gxt": "^0.0.5",
-    "postcss": "^8.4.38",
-    "prettier": "^3.2.5",
+    "postcss": "8.4.47",
+    "prettier": "3.3.3",
     "prettier-plugin-ember-template-tag": "^2.0.2",
-    "qunit": "^2.20.1",
-    "qunit-dom": "^3.1.2",
-    "qunit-theme-ember": "^0.2.0",
-    "tailwindcss": "^3.4.3",
-    "typescript": "^5.2.2",
-    "vite": "^5.2.0",
+    "qunit": "2.22.0",
+    "qunit-dom": "3.2.0",
+    "qunit-theme-ember": "1.0.0",
+    "tailwindcss": "3.4.11",
+    "typescript": "5.6.2",
+    "vite": "5.4.5",
     "vite-plugin-babel": "^1.2.0"
   },
   "dependencies": {
-    "@lifeart/gxt": "0.0.49",
+    "@lifeart/gxt": "0.0.56",
     "decorator-transforms": "^2.0.0"
   }
 }
