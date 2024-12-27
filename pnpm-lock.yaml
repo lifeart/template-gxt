@@ -6,16 +6,16 @@ settings:
 
 dependencies:
   '@lifeart/gxt':
-    specifier: 0.0.56
-    version: 0.0.56
+    specifier: 0.0.58
+    version: 0.0.58
   decorator-transforms:
     specifier: ^2.0.0
     version: 2.0.0(@babel/core@7.24.5)
 
 devDependencies:
   '@glint/core':
-    specifier: ^1.4.0
-    version: 1.4.0(typescript@5.6.2)
+    specifier: 1.5.0
+    version: 1.5.0(typescript@5.6.2)
   '@types/qunit':
     specifier: 2.19.10
     version: 2.19.10
@@ -24,7 +24,7 @@ devDependencies:
     version: 10.4.20(postcss@8.4.47)
   glint-environment-gxt:
     specifier: ^0.0.5
-    version: 0.0.5(@glint/core@1.4.0)(@glint/environment-ember-loose@1.4.0)(@glint/template@1.4.0)
+    version: 0.0.5(@glint/core@1.5.0)(@glint/environment-ember-loose@1.4.0)(@glint/template@1.4.0)
   postcss:
     specifier: 8.4.47
     version: 8.4.47
@@ -1655,8 +1655,8 @@ packages:
       '@glimmer/util': 0.87.1
     dev: false
 
-  /@glint/core@1.4.0(typescript@5.6.2):
-    resolution: {integrity: sha512-nq27a/1R6kc3lsuciz8z9IZO1NQCbNkEBxf5KJI7AUrnps6RzQzmq3pmwO24zQYmFcH4sqpod8fleNIpg8YEqg==}
+  /@glint/core@1.5.0(typescript@5.6.2):
+    resolution: {integrity: sha512-oo6ZDwX2S0Qqjai/CJH72LHg1U6rvzH1IyiFlWofaFiu/nSg04CDWZuJNPC3r47jz1+SaSI+mVMUaKJznzxzzQ==}
     hasBin: true
     peerDependencies:
       typescript: '>=4.8.0'
@@ -1751,8 +1751,8 @@ packages:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  /@lifeart/gxt@0.0.56:
-    resolution: {integrity: sha512-9fgN2vODyYl4Q4saBKu4Q3qd28KYSUOf4pLxMvTHHvYN5oRkqk1+OjuZhlWIlxcILQH2DEOddbdQLUBdIPE5Uw==}
+  /@lifeart/gxt@0.0.58:
+    resolution: {integrity: sha512-qgIBO+wGnN+e72QUeJ/yAVq9FvWBm5jFqfVrCvf059tysP2w/u1lq0Q9OJq4r17Yyd2QByxIUa9GcrVn79bE/A==}
     dependencies:
       '@babel/core': 7.24.5
       '@babel/preset-typescript': 7.24.1(@babel/core@7.24.5)
@@ -2466,7 +2466,7 @@ packages:
   /core-js-compat@3.37.0:
     resolution: {integrity: sha512-vYq4L+T8aS5UuFg4UwDhc7YNRWVeVZwltad9C/jV3R2LgVOpS9BDr7l/WL6BN0dbV3k1XejPTHqqEzJgsa0frA==}
     dependencies:
-      browserslist: 4.23.0
+      browserslist: 4.23.3
     dev: true
 
   /core-js@2.6.12:
@@ -2982,7 +2982,7 @@ packages:
       pump: 3.0.0
     dev: true
 
-  /glint-environment-gxt@0.0.5(@glint/core@1.4.0)(@glint/environment-ember-loose@1.4.0)(@glint/template@1.4.0):
+  /glint-environment-gxt@0.0.5(@glint/core@1.5.0)(@glint/environment-ember-loose@1.4.0)(@glint/template@1.4.0):
     resolution: {integrity: sha512-0SLxU6HXAic5uMkg3Ajve1K7KU0GLMUkpu1XcySya3mRMkqSSOkhirs4RQByGEVbvLaZWAG147iZowneEiwsrA==}
     peerDependencies:
       '@glint/core': ^1.3.0
@@ -3002,7 +3002,7 @@ packages:
       '@types/ember__routing':
         optional: true
     dependencies:
-      '@glint/core': 1.4.0(typescript@5.6.2)
+      '@glint/core': 1.5.0(typescript@5.6.2)
       '@glint/environment-ember-loose': 1.4.0(@glimmer/component@1.1.2)(@glint/template@1.4.0)
       '@glint/template': 1.4.0
       content-tag: 2.0.1

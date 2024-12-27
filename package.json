@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@glint/core": "^1.4.0",
+    "@glint/core": "1.5.0",
     "@types/qunit": "2.19.10",
     "autoprefixer": "10.4.20",
     "glint-environment-gxt": "^0.0.5",
@@ -25,7 +25,7 @@
     "vite-plugin-babel": "^1.2.0"
   },
   "dependencies": {
-    "@lifeart/gxt": "0.0.56",
+    "@lifeart/gxt": "0.0.58",
     "decorator-transforms": "^2.0.0"
   }
 }
